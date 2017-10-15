@@ -4,30 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Aprende X si Sabes Y</title>
 </head>
 <body>
-  
-  <script>
-    var request = new XMLHttpRequest();
-    request.open('GET', 'config.json', true);
-    
-    request.onload = function() {
-      if (request.status >= 200 && request.status < 400) {
-        // Success!
-        var data = JSON.parse(request.responseText);
-        console.log(data)
-      } else {
-        // We reached our target server, but it returned an error
-    
-      }
-    };
-    
-    request.onerror = function() {
-      // There was a connection error of some sort
-    };
-    
-    request.send();
-  </script>
+  <h1>Aprende X si sabes Y</h1>
+  Aprender:
+  <select name="" id="selectX"></select>
+  Sabiendo:
+  <select name="" id="selectY"></select>
+  <button id="learnButton">Aprender!</button>
+  <div id="container">
+    <div id="comparison"></div>
+  </div>
+  <script src="js/main.js"></script>
 </body>
 </html>

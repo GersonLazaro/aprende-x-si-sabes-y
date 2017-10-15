@@ -6,15 +6,14 @@
   ],
   "instructions": [
     {
-      "Hello World": {
-        "description": "Ejemplo clásico de programación: Imprimir en pantalla el texto \"Hola Mundo\".",
-        "filename": "hello-world",
-        "languages": [
-          "Javascript", 
-          "Java",
-          "C++"
-        ]
-      }
-    }
+      "name": "Hola Mundo",
+      "description": "Ejemplo clásico de programación: Imprimir en pantalla el texto \"Hola Mundo\".",
+      "filename": "hello-world",
+      "languages": [
+        "Javascript", 
+        "Java",
+        "C++"
+      ]
+     }
   ]
 }
