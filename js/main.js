@@ -44,8 +44,8 @@ function instructionFoundInLanguages (languagesAvailable) {
   var selectY = document.getElementById("selectY");
   var found = 0;
   for(var i = 0; i < languagesAvailable.length; i++) {
-    if (languagesAvailable[i] === langs[selectX.selectedIndex]) found++;
-    if (languagesAvailable[i] === langs[selectY.selectedIndex]) found++;
+    if (languagesAvailable[i] === langs[selectX.selectedIndex - 1]) found++;
+    if (languagesAvailable[i] === langs[selectY.selectedIndex - 1]) found++;
   }
   if(found == 2) return true;
   return false;
@@ -80,7 +80,6 @@ function generateComparison () {
   var selectX = document.getElementById("selectX");
   var selectY = document.getElementById("selectY");
   for(var i = 0; i < instructions.length; i++) {
-    console.log("Instruccion " + instructions[i].name);
     if(instructionFoundInLanguages(instructions[i].languages)) {
       var instruction = document.createElement("div");
       var title = document.createElement("h3");
@@ -93,12 +92,26 @@ function generateComparison () {
       var right = document.createElement("div");
       instruction.appendChild(left);
       instruction.appendChild(right);
-      getExample(instructions[i].filename, langs[selectX.selectedIndex], left);
-      getExample(instructions[i].filename, langs[selectY.selectedIndex], right);
+      getExample(instructions[i].filename, langs[selectX.selectedIndex - 1], left);
+      getExample(instructions[i].filename, langs[selectY.selectedIndex - 1], right);
       comparison.appendChild(instruction);
     }
   }
 }
 
+function changeText (letter) {
+  var index = document.getElementById("select" + letter).selectedIndex - 1;
+  var text = document.getElementById("text" + letter);
+  if (index < 0) {
+    text.textContent = letter;
+  } else {
+    text.textContent = langs[index];
+  }
+}
+
+
+
 loadConfig();
 document.getElementById("learnButton").addEventListener("click", generateComparison);
+document.getElementById("selectX").addEventListener("change", function () {changeText('X');});
+document.getElementById("selectY").addEventListener("change", function () {changeText('Y');});
