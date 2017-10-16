@@ -1,14 +1,31 @@
+/**
+ * Aprende X si sabes Y
+ * @author Gerson Lázaro <http://www.gersonlazaro.com>
+ * @licence MIT
+ */
 var config;
 var langs = new Array();
 var instructions = new Array();
 
+var selectX;
+var selectY;
+
+/**
+ * Inicializa los menus de selección usados en el sitio
+ */
+function init () {
+  selectX = document.getElementById("selectX");
+  selectY = document.getElementById("selectY");
+}
+
+/**
+ * Carga el archivo de configuración en el sitio
+ */
 function loadConfig () {
   var request = new window.XMLHttpRequest();
   request.open('GET', 'config.json', true);
-  
   request.onload = function () {
     if (request.status >= 200 && request.status < 400) {
-      // Configuración leída exitosamente
       config = JSON.parse(request.responseText);
       activateSite();
     } else {
@@ -22,6 +39,11 @@ function loadConfig () {
   request.send();
 }
 
+/**
+ * Agrega una opción al menú de selección
+ * @param {*} letter - Letra del menú de selección (X o Y)
+ * @param {*} value - Valor a añadir al menú
+ */
 function addSelectOption (letter, value) {
   var select = document.getElementById("select" + letter);
   var option = document.createElement("option");
@@ -30,6 +52,9 @@ function addSelectOption (letter, value) {
   select.add(option);
 }
 
+/**
+ * Carga los lenguajes en el sitio y lo dej activo
+ */
 function activateSite () {
   langs = config.languages;
   instructions = config.instructions;
@@ -39,9 +64,11 @@ function activateSite () {
   }
 }
 
+/**
+ * Verifica si una instrucción está disponible en los lenguajes actualmente establecidos
+ * @param {*} languagesAvailable - Lista de lenguajes en los cuales está disponible la instrucción
+ */
 function instructionFoundInLanguages (languagesAvailable) {
-  var selectX = document.getElementById("selectX");
-  var selectY = document.getElementById("selectY");
   var found = 0;
   for(var i = 0; i < languagesAvailable.length; i++) {
     if (languagesAvailable[i] === langs[selectX.selectedIndex - 1]) found++;
@@ -51,6 +78,12 @@ function instructionFoundInLanguages (languagesAvailable) {
   return false;
 }
 
+/**
+ * Obtiene un ejemplo de código para insertarlo en la página
+ * @param {*} filename - Nombre del ejemplo
+ * @param {*} lang - Lenguaje del ejemplo
+ * @param {*} node - Objeto DOM en el cual se insertará el elemento
+ */
 function getExample (filename, lang, node) {
   var title = document.createElement("h5");
   var pre = document.createElement("pre");
@@ -71,21 +104,17 @@ function getExample (filename, lang, node) {
       // TODO: Manejar error devuelto por el servidor
     }
   };
-  
-  request.onerror = function() {
-    // TODO: Manejar error en la peticion
-  };
   request.send();
 }
 
-
+/**
+ * Genera una comparación entre dos lenguajes
+ */
 function generateComparison () {
   document.getElementById("comparison").remove();
   var comparison = document.createElement("div");
   comparison.id = "comparison";
   document.getElementById("container").appendChild(comparison);
-  var selectX = document.getElementById("selectX");
-  var selectY = document.getElementById("selectY");
   for(var i = 0; i < instructions.length; i++) {
     if(instructionFoundInLanguages(instructions[i].languages)) {
       var instruction = document.createElement("div");
@@ -113,6 +142,10 @@ function generateComparison () {
   }
 }
 
+/**
+ * Cambia el texto de X y Y por los lenguajes elegidos
+ * @param {*} letter - Letra del lenguaje a cambiar
+ */
 function changeText (letter) {
   var index = document.getElementById("select" + letter).selectedIndex - 1;
   var text = document.getElementById("text" + letter);
@@ -123,15 +156,18 @@ function changeText (letter) {
   }
 }
 
+/**
+ * Revisa si los dos lenguajes son validos. Si lo son, activa el botón
+ */
 function validateButton () {
-  var selectX = document.getElementById("selectX");
-  var selectY = document.getElementById("selectY");
   var btn = document.getElementById("learnButton");
   if(selectX.selectedIndex > 0 && selectY.selectedIndex > 0) btn.disabled = false;
   else btn.disabled = true;
 }
 
 
+// Inicialización y configuración
+init();
 loadConfig();
 document.getElementById("learnButton").addEventListener("click", generateComparison);
 document.getElementById("selectX").addEventListener("change", function () {changeText('X');validateButton();});
