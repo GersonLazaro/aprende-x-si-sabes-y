@@ -53,6 +53,15 @@
         "Java",
         "Javascript"
       ]
+     },
+     {
+      "name": "Treeset",
+      "description": "Colección ordenada sin elementos duplicados",
+      "filename": "treeset",
+      "languages": [
+        "C++",
+        "Java"
+      ]
      }
   ]
 }
