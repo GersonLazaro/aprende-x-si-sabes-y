@@ -43,6 +43,16 @@
         "C++",
         "Java"
       ]
+     },
+     {
+      "name": "Vectores",
+      "description": "Estructura de datos para almacenar elementos",
+      "filename": "vector",
+      "languages": [
+        "C++",
+        "Java",
+        "Javascript"
+      ]
      }
   ]
 }
