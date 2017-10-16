@@ -79,7 +79,6 @@ function getExample (filename, lang, node) {
 }
 
 
-
 function generateComparison () {
   document.getElementById("comparison").remove();
   var comparison = document.createElement("div");
@@ -124,9 +123,16 @@ function changeText (letter) {
   }
 }
 
+function validateButton () {
+  var selectX = document.getElementById("selectX");
+  var selectY = document.getElementById("selectY");
+  var btn = document.getElementById("learnButton");
+  if(selectX.selectedIndex > 0 && selectY.selectedIndex > 0) btn.disabled = false;
+  else btn.disabled = true;
+}
 
 
 loadConfig();
 document.getElementById("learnButton").addEventListener("click", generateComparison);
-document.getElementById("selectX").addEventListener("change", function () {changeText('X');});
-document.getElementById("selectY").addEventListener("change", function () {changeText('Y');});
+document.getElementById("selectX").addEventListener("change", function () {changeText('X');validateButton();});
+document.getElementById("selectY").addEventListener("change", function () {changeText('Y');validateButton();});
