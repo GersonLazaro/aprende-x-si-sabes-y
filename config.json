@@ -24,6 +24,16 @@
         "Java",
         "Javascript"
       ]
+     },
+     {
+      "name": "Arreglos",
+      "description": "Colecciones de datos del mismo tipo",
+      "filename": "arrays",
+      "languages": [
+        "C++",
+        "Java",
+        "Javascript"
+      ]
      }
   ]
 }
