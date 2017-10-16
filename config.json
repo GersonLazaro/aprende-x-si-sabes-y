@@ -1,8 +1,8 @@
 {
   "languages": [
-    "Javascript",
+    "C++",
     "Java",
-    "C++"
+    "Javascript"
   ],
   "instructions": [
     {
@@ -10,9 +10,19 @@
       "description": "Ejemplo clásico de programación: Imprimir en pantalla el texto \"Hola Mundo\".",
       "filename": "hello-world",
       "languages": [
-        "Javascript", 
+        "C++",
         "Java",
-        "C++"
+        "Javascript"
+      ]
+     },
+     {
+      "name": "Tipos de datos primitivos",
+      "description": "Declaración de los principales tipos de datos en cada lenguaje",
+      "filename": "data-types",
+      "languages": [
+        "C++",
+        "Java",
+        "Javascript"
       ]
      }
   ]

@@ -52,13 +52,21 @@ function instructionFoundInLanguages (languagesAvailable) {
 }
 
 function getExample (filename, lang, node) {
+  var title = document.createElement("h5");
+  var pre = document.createElement("pre");
+  var code = document.createElement("code");
+  title.textContent = lang;
+  pre.appendChild(code);
+  node.appendChild(title);
+  node.appendChild(pre);
   var request = new window.XMLHttpRequest();
   request.open('GET', "langs/" + lang + "/" + filename, true);
   
   request.onload = function () {
     if (request.status >= 200 && request.status < 400) {
       // Configuración leída exitosamente
-      node.textContent = request.responseText;
+      pre.textContent = request.responseText;
+      hljs.highlightBlock(pre);
     } else {
       // TODO: Manejar error devuelto por el servidor
     }
@@ -88,10 +96,17 @@ function generateComparison () {
       description.textContent = instructions[i].description;
       instruction.appendChild(title);
       instruction.appendChild(description);
+      var canvas = document.createElement("div");
+      canvas.className = "row";
       var left = document.createElement("div");
+      left.className = "col-md-6 code";
       var right = document.createElement("div");
-      instruction.appendChild(left);
-      instruction.appendChild(right);
+      right.className = "col-md-6 code";
+      var hr = document.createElement("hr");
+      instruction.appendChild(canvas);
+      instruction.appendChild(hr);
+      canvas.appendChild(left);
+      canvas.appendChild(right);
       getExample(instructions[i].filename, langs[selectX.selectedIndex - 1], left);
       getExample(instructions[i].filename, langs[selectY.selectedIndex - 1], right);
       comparison.appendChild(instruction);
