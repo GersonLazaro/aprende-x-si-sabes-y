@@ -6,7 +6,7 @@ Aprende X si sabes Y es una manera diferente de aprender la sintaxis de un lengu
 
 ### Quiero aprender
 
-Simplemente dirigete a [Aprende X si sabes Y](https://gersonlazaro.com/Aprende-X-si-sabes-Y/index.html), elige los lenguajes, y empieza a aprender. Es así de sencillo.
+Simplemente dirigete a [Aprende X si sabes Y](https://gersonlazaro.com/aprende-x-si-sabes-y/index.html), elige los lenguajes, y empieza a aprender. Es así de sencillo.
 
 ### Quiero colaborar
 
