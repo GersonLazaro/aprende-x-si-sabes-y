@@ -2,7 +2,8 @@
   "languages": [
     "C++",
     "Java",
-    "Javascript"
+    "Javascript",
+    "Python"
   ],
   "instructions": [
     {
@@ -12,7 +13,8 @@
       "languages": [
         "C++",
         "Java",
-        "Javascript"
+        "Javascript",
+        "Python"
       ]
      },
      {
@@ -32,7 +34,8 @@
       "languages": [
         "C++",
         "Java",
-        "Javascript"
+        "Javascript",
+        "Python"
       ]
      },
      {
@@ -41,7 +44,8 @@
       "filename": "input-output",
       "languages": [
         "C++",
-        "Java"
+        "Java",
+        "Python"
       ]
      },
      {
@@ -51,7 +55,8 @@
       "languages": [
         "C++",
         "Java",
-        "Javascript"
+        "Javascript",
+        "Python"
       ]
      },
      {
