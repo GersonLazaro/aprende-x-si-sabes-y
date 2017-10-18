@@ -1,0 +1,8 @@
+//En PHP el tipo de dato no es definido por el programador, es determinado en tiempo de ejecucion por PHP
+//Por esta razon no es necesario determinarlo cuando se declaran las variables
+
+$a = 50; // Tipo de dato Entero
+$b = 50.33 // Tipo de dato de punto flotante o float
+$c = true; // Tipo de dato booleano
+$d = "Hola" // Tipo de dato String o cadena de caracteres
+$e = null // Tipo de dato nulo(null) variable sin valor
