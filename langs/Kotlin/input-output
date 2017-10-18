@@ -1,0 +1,7 @@
+//Entrada de datos
+var c: String = readLine() // Recibe un dato a través de la linea de comandos
+
+//Salida de datos
+print("Sin salto de linea e impresion de valor: $c");
+println("Con salto de linea e impresion de valor: $c");
+
