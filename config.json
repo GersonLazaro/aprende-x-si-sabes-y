@@ -3,9 +3,10 @@
     "C++",
     "Java",
     "Javascript",
+    "Julia",
+    "Kotlin",
     "PHP",
-    "Python",
-    "Julia"
+    "Python"
   ],
   "instructions": [
     {
@@ -16,9 +17,10 @@
         "C++",
         "Java",
         "Javascript",
+        "Julia",
+        "Kotlin",
         "PHP",
-        "Python",
-        "Julia"
+        "Python"
       ]
      },
      {
@@ -29,6 +31,7 @@
         "C++",
         "Java",
         "Javascript",
+        "Kotlin",
         "PHP"
       ]
      },
@@ -51,8 +54,9 @@
       "languages": [
         "C++",
         "Java",
-        "Python",
-        "Julia"
+        "Julia",
+        "Kotlin",
+        "Python"
       ]
      },
      {
