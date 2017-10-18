@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+void main()
+{
+int a, b;
+string c;
+scanf("%d",&a); // Asignamos a la variable "a" un número dado por el usuario
+scanf("%d%d",&a,&b); // Asignamos a la variable "a" el primer número dado por el usuario y a "b" el segundo número dado por el usuario
+
+// Output
+printf("Imprimimos en pantalla sin saltar de línea");
+printf("Imprimimos en pantalla saltando a la línea \n");
+}
