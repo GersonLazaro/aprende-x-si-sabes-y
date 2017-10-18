@@ -1,0 +1,17 @@
+# Declaración e inicialización de array de 5 posiciones de tipo float
+a = Array{Float64}(5)
+
+# Agrega el numero 8 al final del array a
+push!(a,8)
+
+# Obtener valor en un índice dado, (el indice empieza en 1!)
+a[1]
+
+# Modificar el elemento en la posicion 1 con el valor 25
+a[1] = 25
+
+# Borra el tercer elemento del array a
+deleteat!(a,3)
+
+# Obtener tamaño
+length(a)

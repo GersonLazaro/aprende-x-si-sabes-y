@@ -1,0 +1,16 @@
+# imprime texto
+print("Ingrese numero:")
+# lee un numero
+a = parse(Float64,readline())
+
+print("Ingrese string: ")
+# lee un string
+b = readline()
+
+# salidad de datos
+
+#salidad con salto de linea
+println("el numero que ingreso fue:",a)
+
+#salidad sin salto de linea
+print("el string que ingreso fue:",b)
