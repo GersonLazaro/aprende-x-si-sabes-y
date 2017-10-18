@@ -1,0 +1,9 @@
+# crea array de 100 posiciones de tipo float (no inicializa valores)
+a = Array(Float64,100)
+
+# crea array e inicializa 
+b = Array(Float64)
+b = fill(3.8,100)
+
+# Acceso y modificacion, los indices sobre arreglos comienzan en 1!
+b[3] = 34
