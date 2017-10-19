@@ -1,0 +1,8 @@
+require 'set'
+s = SortedSet.new([]) # Declaración
+s.add(32) # Inserción
+s.include?(32) # Verificar si un elemento existe
+s.empty? # Verificar si el TreeSet está vacío
+s.delete(25) # Borrar valor
+s.clear # Borrar todo
+s.size # Obtener tamaño

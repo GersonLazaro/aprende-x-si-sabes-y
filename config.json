@@ -8,6 +8,7 @@
     "Kotlin",
     "PHP",
     "Python",
+    "Ruby",
     "Swift"
   ],
   "instructions": [
@@ -22,7 +23,8 @@
         "Julia",
         "Kotlin",
         "PHP",
-        "Python"
+        "Python",
+        "Ruby"
       ]
      },
      {
@@ -34,7 +36,8 @@
         "Java",
         "Javascript",
         "Kotlin",
-        "PHP"
+        "PHP",
+        "Ruby"
       ]
      },
      {
@@ -46,7 +49,8 @@
         "Java",
         "Javascript",
         "Python",
-        "Julia"
+        "Julia",
+        "Ruby"
       ]
      },
      {
@@ -58,7 +62,8 @@
         "Java",
         "Julia",
         "Kotlin",
-        "Python"
+        "Python",
+        "Ruby"
       ]
      },
      {
@@ -70,7 +75,8 @@
         "Java",
         "Javascript",
         "Python",
-        "Julia"
+        "Julia",
+        "Ruby"
       ]
      },
      {
@@ -79,7 +85,8 @@
       "filename": "treeset",
       "languages": [
         "C++",
-        "Java"
+        "Java",
+        "Ruby"
       ]
      },
      {
