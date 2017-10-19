@@ -11,8 +11,7 @@
     "Ruby",
     "Swift"
   ],
-  "instructions": [
-    {
+  "instructions": [{
       "name": "Hola Mundo",
       "description": "Ejemplo clásico de programación: Imprimir en pantalla el texto \"Hola Mundo\".",
       "filename": "hello-world",
@@ -26,8 +25,8 @@
         "Python",
         "Ruby"
       ]
-     },
-     {
+    },
+    {
       "name": "Tipos de datos primitivos",
       "description": "Declaración de los principales tipos de datos en cada lenguaje",
       "filename": "data-types",
@@ -39,8 +38,8 @@
         "PHP",
         "Ruby"
       ]
-     },
-     {
+    },
+    {
       "name": "Arreglos",
       "description": "Colecciones de datos del mismo tipo",
       "filename": "arrays",
@@ -53,8 +52,8 @@
         "Julia",
         "Ruby"
       ]
-     },
-     {
+    },
+    {
       "name": "Entrada y salida",
       "description": "Lectura y escritura desde la entrada y hacia la salida estandar",
       "filename": "input-output",
@@ -66,8 +65,32 @@
         "Python",
         "Ruby"
       ]
-     },
-     {
+    },
+    {
+      "name": "Bucle FOR",
+      "description": "Ejecuta un bloque de código un número determinado de veces",
+      "filename": "for-loop",
+      "languages": [
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Bucle For-Each",
+      "description": "Itera sobre una colección, ejecutando el bloque una vez por cada item",
+      "filename": "for-each-loop",
+      "languages": [
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Strings",
+      "description": "String operations",
+      "filename": "strings",
+      "languages": [
+        "Javascript"
+      ]
+    },
+    {
       "name": "Vectores",
       "description": "Estructura de datos para almacenar elementos",
       "filename": "vector",
@@ -79,8 +102,8 @@
         "Julia",
         "Ruby"
       ]
-     },
-     {
+    },
+    {
       "name": "Treeset",
       "description": "Colección ordenada sin elementos duplicados",
       "filename": "treeset",
@@ -89,8 +112,8 @@
         "Java",
         "Ruby"
       ]
-     },
-     {
+    },
+    {
       "name": "Métodos/Funciones",
       "description": "Declaración de métodos con parámetros",
       "filename": "methods",
@@ -103,7 +126,7 @@
         "Python",
         "Swift"
       ]
-     }
+    }
 
   ]
 }
