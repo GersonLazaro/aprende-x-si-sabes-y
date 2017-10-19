@@ -1,0 +1,11 @@
+package main
+
+// En Go, un campo es público si su nombre empieza con MAYÚSCULA y es privado
+// si su nombre empieza con minúscula
+// Si hay más de un parámetro que comparte el mismo tipo de dato, puede ser
+// indicado en el último parámetro
+
+func sumarDosNumeros(x, y int32) int32 {
+  // No hay punto y comas 
+  return x + y
+}

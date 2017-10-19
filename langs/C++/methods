@@ -1,0 +1,4 @@
+int sumarDosNumeros(int primerNumero, int segundoNumero) {
+
+	return primerNumero + segundoNumero;
+}

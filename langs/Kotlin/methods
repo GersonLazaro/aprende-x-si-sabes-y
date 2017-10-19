@@ -1,0 +1,5 @@
+fun  sumarNumeros(primerNum : Int, segundoNum :Int): Int {
+
+    return primerNum+segundoNum;
+
+}
