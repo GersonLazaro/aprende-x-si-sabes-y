@@ -1,0 +1,3 @@
+for(var i = 0; i<5; i++) { // ejecuta un bucle 5 veces
+    console.log("Hola Mundo!") // ejecuta esta sentencia 5 veces
+}

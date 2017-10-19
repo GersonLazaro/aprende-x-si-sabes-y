@@ -1,0 +1,5 @@
+var a = [1, 2, 3, 4, 5]; // crea una nueva lista
+
+a.forEach(function(element) { // para cada elemento en la lista
+    console.log(element); // imprime cada elemento
+});
