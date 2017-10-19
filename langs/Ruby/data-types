@@ -1,0 +1,7 @@
+# Al ser dinámicamente tipado, no se requiere
+# indicar tipo de dato en las variables
+
+a = 10 # Tipo numérico
+b = true # Boolean (true o false)
+c = "Texto" # String
+

@@ -6,7 +6,8 @@
     "Julia",
     "Kotlin",
     "PHP",
-    "Python"
+    "Python",
+    "Ruby"
   ],
   "instructions": [
     {
@@ -20,7 +21,8 @@
         "Julia",
         "Kotlin",
         "PHP",
-        "Python"
+        "Python",
+        "Ruby"
       ]
      },
      {
@@ -32,7 +34,8 @@
         "Java",
         "Javascript",
         "Kotlin",
-        "PHP"
+        "PHP",
+        "Ruby"
       ]
      },
      {
@@ -44,7 +47,8 @@
         "Java",
         "Javascript",
         "Python",
-        "Julia"
+        "Julia",
+        "Ruby"
       ]
      },
      {
@@ -56,7 +60,8 @@
         "Java",
         "Julia",
         "Kotlin",
-        "Python"
+        "Python",
+        "Ruby"
       ]
      },
      {
@@ -68,7 +73,8 @@
         "Java",
         "Javascript",
         "Python",
-        "Julia"
+        "Julia",
+        "Ruby"
       ]
      },
      {
