@@ -1,0 +1,9 @@
+func sumarDosNumeros(_ primerNumero:Double,_ segundoNumero:Double) -> Double? {
+  guard let result = primerNumero + segundoNumero as? Double else { return nil }
+  return result
+}
+
+// En Swift, los métodos deben decir que retornan algo
+// Los métodos deben retornar el tipo de dato que anuncian
+// Un _ antes de un parámetro significa que la función puede se llamada sin nombrar los parámetros si están en orden
+// Gracias a esto, esta función puede ser llamada como sumarDosNumeros(12, 14) y el retornará 26

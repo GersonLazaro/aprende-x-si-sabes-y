@@ -1,0 +1,4 @@
+function sumarDosNumeros(primerNumero, segundoNumero) {
+
+	return primerNumero + segundoNumero
+}

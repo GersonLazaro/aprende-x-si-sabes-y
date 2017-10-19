@@ -1,0 +1,4 @@
+a = [] # Creación
+b = [1,2,3,4,5] # Creación e inicialización
+
+a[0] = 5 # Acceso y modificación

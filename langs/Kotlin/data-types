@@ -1,0 +1,10 @@
+var a: Byte = 2 // Valores entre -128 y 127
+var b: Short = 128 // Valores entre -32768 y 32767
+var c: Int = 32768 // Valores entre -2,147,483,648 y 2,147,483,647
+var d: Long = 123123123123 // Valores entre -9,223,372,036,854,775,808 y 9,223,372,036,854,775,807
+var e: Float = 1.15f // Valores con punto decimal
+var f: Double = 1.15524212312 // Valores con punto decimal y el doble de precision que los valores "Float"
+var g: Boolean = true // Datos booleanos con valores "true" o "false"
+var h: Char = 'z' // Dato de tipo caracter
+
+var i: String = "Hola" // Tipo de dato que se entiende como un Array de "Char"

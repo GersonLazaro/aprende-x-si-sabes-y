@@ -1,0 +1,10 @@
+puts "Ingrese numero: "
+a = gets.chomp.to_i
+
+
+puts "Ingrese string: "
+b = gets.chomp.to_s
+
+# Salida de datos
+puts "Sin salto de linea"
+puts "Con salto de linea\nOtra linea"

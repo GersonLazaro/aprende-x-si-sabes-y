@@ -1,10 +1,15 @@
 {
   "languages": [
     "C++",
+    "Go",
     "Java",
     "Javascript",
+    "Julia",
+    "Kotlin",
+    "PHP",
     "Python",
-    "Julia"
+    "Ruby",
+    "Swift"
   ],
   "instructions": [
     {
@@ -15,8 +20,11 @@
         "C++",
         "Java",
         "Javascript",
+        "Julia",
+        "Kotlin",
+        "PHP",
         "Python",
-        "Julia"
+        "Ruby"
       ]
      },
      {
@@ -26,7 +34,10 @@
       "languages": [
         "C++",
         "Java",
-        "Javascript"
+        "Javascript",
+        "Kotlin",
+        "PHP",
+        "Ruby"
       ]
      },
      {
@@ -38,7 +49,8 @@
         "Java",
         "Javascript",
         "Python",
-        "Julia"
+        "Julia",
+        "Ruby"
       ]
      },
      {
@@ -48,8 +60,10 @@
       "languages": [
         "C++",
         "Java",
+        "Julia",
+        "Kotlin",
         "Python",
-        "Julia"
+        "Ruby"
       ]
      },
      {
@@ -61,7 +75,8 @@
         "Java",
         "Javascript",
         "Python",
-        "Julia"
+        "Julia",
+        "Ruby"
       ]
      },
      {
@@ -70,8 +85,24 @@
       "filename": "treeset",
       "languages": [
         "C++",
-        "Java"
+        "Java",
+        "Ruby"
+      ]
+     },
+     {
+      "name": "Métodos/Funciones",
+      "description": "Declaración de métodos con parámetros",
+      "filename": "methods",
+      "languages": [
+        "C++",
+        "Go",
+        "Java",
+        "Javascript",
+        "Kotlin",
+        "Python",
+        "Swift"
       ]
      }
+
   ]
 }
