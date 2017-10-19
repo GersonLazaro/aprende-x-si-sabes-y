@@ -1,13 +1,15 @@
 {
   "languages": [
     "C++",
+    "Go",
     "Java",
     "Javascript",
     "Julia",
     "Kotlin",
     "PHP",
     "Python",
-    "Ruby"
+    "Ruby",
+    "Swift"
   ],
   "instructions": [
     {
@@ -83,8 +85,24 @@
       "filename": "treeset",
       "languages": [
         "C++",
-        "Java"
+        "Java",
+        "Ruby"
+      ]
+     },
+     {
+      "name": "Métodos/Funciones",
+      "description": "Declaración de métodos con parámetros",
+      "filename": "methods",
+      "languages": [
+        "C++",
+        "Go",
+        "Java",
+        "Javascript",
+        "Kotlin",
+        "Python",
+        "Swift"
       ]
      }
+
   ]
 }
