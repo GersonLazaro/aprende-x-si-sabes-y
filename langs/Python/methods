@@ -1,0 +1,6 @@
+def sumarDosNumeros(primerNumero, segundoNumero):
+
+	return primerNumero + segundoNumero
+
+# Recuerda, en Python debes usar la indentación para definir si
+#  estas o no escribiendo en un bloque de código específico

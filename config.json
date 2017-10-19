@@ -1,12 +1,14 @@
 {
   "languages": [
     "C++",
+    "Go",
     "Java",
     "Javascript",
     "Julia",
     "Kotlin",
     "PHP",
-    "Python"
+    "Python",
+    "Swift"
   ],
   "instructions": [
     {
@@ -79,6 +81,21 @@
         "C++",
         "Java"
       ]
+     },
+     {
+      "name": "Métodos/Funciones",
+      "description": "Declaración de métodos con parámetros",
+      "filename": "methods",
+      "languages": [
+        "C++",
+        "Go",
+        "Java",
+        "Javascript",
+        "Kotlin",
+        "Python",
+        "Swift"
+      ]
      }
+
   ]
 }
