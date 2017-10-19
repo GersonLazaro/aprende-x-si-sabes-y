@@ -1,0 +1,3 @@
+$a = []; //creacion del array
+$b = [1,2,3,4,5] //creacion e inicializacion del array
+$a[0] = 12 //acceso y modificacion del array
