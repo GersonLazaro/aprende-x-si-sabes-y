@@ -79,7 +79,8 @@
       "description": "Itera sobre una colección, ejecutando el bloque una vez por cada item",
       "filename": "for-each-loop",
       "languages": [
-        "Javascript"
+        "Javascript",
+        "Java"
       ]
     },
     {
@@ -127,6 +128,5 @@
         "Swift"
       ]
     }
-
   ]
 }
