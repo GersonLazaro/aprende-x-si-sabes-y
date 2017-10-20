@@ -1,0 +1,13 @@
+<?php
+
+$arr = array(1, 2, 3, 4); //define el arreglo, ver documentacion sobre estructuras de
+datos
+
+foreach ($arr as &$value) { //itera una vez por cada elemento del arreglo
+    $value = $value * 2; //ejecuta la sentencia para cada objeto
+}
+
+// También se puede obtener la llave/indice del arreglo en cada iteracion
+foreach ($arr as $key => $value) {
+    echo "El valor del arreglo en la posición {$key} es {$value}\n";
+}
