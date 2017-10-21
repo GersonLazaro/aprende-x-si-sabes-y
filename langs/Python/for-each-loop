@@ -1,0 +1,4 @@
+a = [1, 2, 3, 4, 5]   // crea una nueva lista
+
+for element in a:     // para cada elemento en la lista
+	print(element)    // imprime cada elemento
