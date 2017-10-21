@@ -1,0 +1,5 @@
+int[] a = new int[]{1, 2, 3, 4, 5};  // crea una nueva lista
+
+for (int element : a) {              // para cada elemento en la lista
+	System.out.println(element);     // imprime cada elemento
+}

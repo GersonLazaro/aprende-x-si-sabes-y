@@ -82,6 +82,7 @@
       "filename": "for-each-loop",
       "languages": [
         "Javascript",
+        "Java",
         "PHP"
       ]
     },
@@ -133,6 +134,5 @@
         "Swift"
       ]
     }
-
   ]
 }
