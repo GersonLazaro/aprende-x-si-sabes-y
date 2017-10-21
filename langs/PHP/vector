@@ -1,0 +1,15 @@
+<?php
+
+$a = [];
+// Inserta un elemento
+array_push($a, 32);
+// Obtiene el valor de un índice dado
+$a[1];
+// Modifica el elemento en la posición dada (0) por el valor dado (25)
+$a[0] = 25;
+// Elimina el valor en el índice dado
+unset($a[1]);
+// Elimina el vector
+unset($a);
+// Obtiene el tamaño del vector
+count($a);
