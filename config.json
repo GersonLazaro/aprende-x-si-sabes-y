@@ -72,7 +72,7 @@
       "description": "Ejecuta un bloque de código un número determinado de veces",
       "filename": "for-loop",
       "languages": [
-        "Java,"
+        "Java",
         "Javascript",
         "PHP"
       ]
