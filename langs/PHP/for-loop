@@ -1,0 +1,5 @@
+<?php
+
+for( $i = 0; $i<5; $i++) { // itera 5 veces
+	echo "Hola mundo!"; // Imprime "Hola mundo!" 5 veces
+}
