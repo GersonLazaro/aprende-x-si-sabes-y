@@ -1,0 +1,18 @@
+<?php
+
+// Define funcion readline(), si no existe
+if (!function_exists("readline")) {
+    function readline($prompt)
+    {
+        echo $prompt;
+        return rtrim(fgets(STDIN)); // obtiene una línea desde STDIN, y remueve el caracter final-de-linea
+    }
+}
+
+// Entrada
+$a = (int) readline("Ingrese un número: ");
+$b = readline("Ingrese una cadena de texto: ");
+
+// Salida
+echo "Imprime sin salto de línea";
+echo "Imprime con salto de línea\n";
