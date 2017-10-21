@@ -1,0 +1,12 @@
+<?php
+
+$str = "Las rosas son rojas";
+Las rosas son rojas
+$strLen = strlen($str); // Tamaño de la cadena --> 13
+$substr = subsr($str, 14, 5); // "rojas"
+$n = str_replace("a", "D",$str); // Reemplaza todas las ocurrencias de "a" --> "LDs rosDs son rojDs"
+$strUpperCase = strtoupper($str); // Cambiar a mayúsculas --> "LAS ROSAS SON ROJAS"
+$strLowerCase = strtolower($str); // Cambiar a minúsculas --> "las rosas son rojas"
+$concatStr = $str . ", las violetas son azules!"; // --> "Las rosas son rojas, las violetas son azules!"
+
+// PHP usa el caracter punto (.) para unir cadenas de texto
