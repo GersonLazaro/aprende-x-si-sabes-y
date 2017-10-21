@@ -62,6 +62,7 @@
         "Java",
         "Julia",
         "Kotlin",
+        "PHP",
         "Python",
         "Ruby"
       ]
@@ -71,7 +72,8 @@
       "description": "Ejecuta un bloque de código un número determinado de veces",
       "filename": "for-loop",
       "languages": [
-        "Javascript"
+        "Javascript",
+        "PHP"
       ]
     },
     {
@@ -79,7 +81,8 @@
       "description": "Itera sobre una colección, ejecutando el bloque una vez por cada item",
       "filename": "for-each-loop",
       "languages": [
-        "Javascript"
+        "Javascript",
+        "PHP"
       ]
     },
     {
@@ -87,7 +90,8 @@
       "description": "String operations",
       "filename": "strings",
       "languages": [
-        "Javascript"
+        "Javascript",
+        "PHP"
       ]
     },
     {
@@ -98,6 +102,7 @@
         "C++",
         "Java",
         "Javascript",
+        "PHP",
         "Python",
         "Julia",
         "Ruby"
@@ -123,6 +128,7 @@
         "Java",
         "Javascript",
         "Kotlin",
+        "PHP",
         "Python",
         "Swift"
       ]
