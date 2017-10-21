@@ -68,10 +68,11 @@
       ]
     },
     {
-      "name": "Bucle FOR",
+      "name": "Bucle For",
       "description": "Ejecuta un bloque de código un número determinado de veces",
       "filename": "for-loop",
       "languages": [
+        "Java,"
         "Javascript",
         "PHP"
       ]
