@@ -1,0 +1,7 @@
+//En Kotlin, el parametro que se encuentra dentro del "For"
+//es llamado rango. En este ejemplo, el rango dicta que se
+//imprimiran los valores del 1 al 5.
+
+for(elemento in 1..5) {
+        println(elemento)
+}
