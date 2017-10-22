@@ -36,6 +36,7 @@
         "Javascript",
         "Kotlin",
         "PHP",
+        "Python",
         "Ruby"
       ]
     },
@@ -75,7 +76,8 @@
         "Java",
         "Javascript",
         "Kotlin",
-        "PHP"
+        "PHP",
+        "Python"
       ]
     },
     {
@@ -94,6 +96,7 @@
       "description": "String operations",
       "filename": "strings",
       "languages": [
+        "Java",
         "Javascript",
         "PHP"
       ]
