@@ -1,0 +1,12 @@
+#Sintaxis
+#for variable in elemento_a_recorrer:
+#print(variable)
+
+# Debemos indicar que queremos recorrer(un rango , lista , tuplas , etc)
+
+for i in range(1,10): #Imprime los numeros del 1 al 10
+    print(i)
+    
+for i in "Hola mundo": #Imprime la cadena
+    print(i)
+
