@@ -1,7 +1,19 @@
 // Al ser dinámicamente tipado, no se requiere
 // indicar tipo de dato en las variables
 
+// Existen 7 tipos de datos:
+
+// Seis tipos de datos que son primitivos:
 var a = 10; // Tipo numérico
 var b = true; // Boolean (true o false)
 var c = "Texto"; // String
+var d = null; // Null 
+var e = undefined; // Undefined
+var simbolo = Symbol(); // Symbol (ECMAScript 6)
+
+// Y un tipo de dato compuesto:
+var persona = {nombre:'John', apellido:'Doe', edad:'30'}; // Object
+
+
+
 
