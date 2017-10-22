@@ -1,0 +1,24 @@
+
+# Numéricos
+entero = 2
+print(entero,type(entero))
+
+flotante = 0.45
+print(flotante, type(flotante))
+
+complejo = 6 + 1.65j
+print(complejo, type(complejo))
+
+# Cadenas
+cad1 = "Bienvenido a Python"
+print(cad1, type(cad1))
+
+cad2 = 'Bienvenido a Python'
+print(cad2, type(cad2))
+
+# Booleanos
+x = True
+print(x, type(x))
+
+y = False
+print(y, type(y))
