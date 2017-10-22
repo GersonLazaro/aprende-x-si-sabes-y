@@ -1,0 +1,31 @@
+
+String cadena="Las rosas son rojas";
+
+ 
+                System.out.println(cadena.charAt(0)); // Nos devolvera L
+ 
+                System.out.println(cadena.charAt(6)); //Nos devolvera s
+ 
+                System.out.println(cadena.endsWith("s")); //Nos devuelve true
+ 
+                System.out.println(cadena.startsWith("l")); //Nos devuelve false, Java distingue entre mayusculas y minusculas
+ 
+                System.out.println(cadena.equals("Las rosas son rojas")); //Nos devuelve true
+ 
+                System.out.println(cadena.indexOf("son")); //localiza la posicion donde se encuentra "son"
+ 
+                System.out.println(cadena.length()); // Nos devuelve la longitud: 19
+ 
+                System.out.println(cadena.replace('a', 'e')); // Cambia todas las a por e
+ 
+                System.out.println(cadena.toLowerCase()); //Transforma el String a minusculas
+ 
+                System.out.println(cadena.toUpperCase()); //Transforma el String a mayusculas
+                
+                System.out.println(cadena.substring(4)); // Nos devuelve "rosas son rojas"
+                
+                System.out.println(cadena.trim()); // Si existe espacio al inicio y final de la cadena , nos la devuelve sin el
+                
+                System.out.println(cadena.compareTo(cadena2)); //  positivo si cadena>cadena2 , negativo si cadena<cadena2 y 0 si son iguales 
+
+                System.out.println(cadena.contains("Las")); // Nos devuelve true
