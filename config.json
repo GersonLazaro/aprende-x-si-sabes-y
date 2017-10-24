@@ -139,6 +139,14 @@
         "Python",
         "Swift"
       ]
+    },
+    {   
+      "name": "Operaciones aritméticas",
+      "description": "Forma de declarar las operaciones básicas (Suma, Resta, Multiplicacion y Division)",
+      "filename": "arithmetics",
+      "languages": [
+        "Kotlin"
+      ]
     }
   ]
 }

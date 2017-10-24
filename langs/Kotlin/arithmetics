@@ -1,0 +1,27 @@
+fun main (args: Array<String>){
+
+    // Los valores puede ser de tipo Int, Float o Double
+    val numeroUno : Int = 30
+    val numeroDos : Int = 20
+
+    // Suma de numeros
+    numeroUno + numeroDos
+    numeroUno.plus(numeroDos)
+
+    // Resta de numeros
+    numeroUno - numeroDos
+    numeroUno.minus(numeroDos)
+
+    // Multiplicacion de numeros
+    numeroUno * numeroDos
+    numeroUno.times(numeroDos)
+
+    // Division de numeros
+    numeroUno / numeroDos
+    numeroUno.div(numeroDos)
+
+    // Modulo de division de numeros
+    numeroDos % numeroDos;
+    numeroUno.rem(numeroDos)
+    
+}
