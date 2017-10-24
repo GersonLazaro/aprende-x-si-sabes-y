@@ -23,7 +23,8 @@
         "Kotlin",
         "PHP",
         "Python",
-        "Ruby"
+        "Ruby",
+        "Swift"
       ]
     },
     {
@@ -73,6 +74,7 @@
       "description": "Ejecuta un bloque de código un número determinado de veces",
       "filename": "for-loop",
       "languages": [
+        "C++",
         "Java",
         "Javascript",
         "Kotlin",
@@ -138,6 +140,14 @@
         "PHP",
         "Python",
         "Swift"
+      ]
+    },
+    {   
+      "name": "Operaciones aritméticas",
+      "description": "Forma de declarar las operaciones básicas (Suma, Resta, Multiplicacion y Division)",
+      "filename": "arithmetics",
+      "languages": [
+        "Kotlin"
       ]
     }
   ]

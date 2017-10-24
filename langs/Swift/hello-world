@@ -1,0 +1,5 @@
+// El tipo de variable let se utiliza como una variable
+// exclusiva para constantes
+
+let saludo = "¡Hola, mundo!"
+print(saludo)
