@@ -1,6 +1,7 @@
 {
   "languages": [
     "C++",
+    "C Sharp",
     "Go",
     "Java",
     "Javascript",
@@ -17,6 +18,7 @@
       "filename": "hello-world",
       "languages": [
         "C++",
+        "C Sharp",
         "Java",
         "Javascript",
         "Julia",
@@ -33,6 +35,7 @@
       "filename": "data-types",
       "languages": [
         "C++",
+        "C Sharp",
         "Java",
         "Javascript",
         "Kotlin",
@@ -47,6 +50,7 @@
       "filename": "arrays",
       "languages": [
         "C++",
+        "C Sharp",
         "Java",
         "Javascript",
         "PHP",
@@ -75,6 +79,7 @@
       "filename": "for-loop",
       "languages": [
         "C++",
+        "C Sharp",
         "Java",
         "Javascript",
         "Kotlin",
@@ -87,6 +92,7 @@
       "description": "Itera sobre una colección, ejecutando el bloque una vez por cada item",
       "filename": "for-each-loop",
       "languages": [
+        "C Sharp",
         "Javascript",
         "Java",
         "PHP",
@@ -98,6 +104,7 @@
       "description": "String operations",
       "filename": "strings",
       "languages": [
+        "C Sharp",
         "Java",
         "Javascript",
         "PHP"
@@ -109,6 +116,7 @@
       "filename": "vector",
       "languages": [
         "C++",
+        "C Sharp",
         "Java",
         "Javascript",
         "PHP",
@@ -133,6 +141,7 @@
       "filename": "methods",
       "languages": [
         "C++",
+        "C Sharp",
         "Go",
         "Java",
         "Javascript",
