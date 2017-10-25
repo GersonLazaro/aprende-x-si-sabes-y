@@ -1,7 +1,12 @@
-class MainClass
+using System;
+
+namespace LearnCSharp
 {
-	public static void Main (string[] args)
+	class MainClass
 	{
-		Console.WriteLine ("Hello World!");
+		public static void Main (string[] args)
+		{
+			Console.WriteLine ("Hello World!");
+		}
 	}
 }

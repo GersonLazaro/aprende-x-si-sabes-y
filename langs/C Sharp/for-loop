@@ -1,0 +1,4 @@
+for (int i = 0; i < 5; i++) // Corre un bucle 5 veces 
+{ 
+	System.Console.WriteLine("Hello, World!"); // Ejecuta la sentencia 5 veces
+}

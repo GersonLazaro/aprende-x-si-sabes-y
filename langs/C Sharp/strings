@@ -1,0 +1,7 @@
+string str = "Las rosas son rojas";
+int strLen = str.Length; // Largo del String --> 19
+string substr = str.Substring(14); // "rojas"
+string n = str.Replace("a","u"); // Reemplaza "e" globalmente --> "Lus rosus son rojus"
+string strUpperCase = str.ToUpperCase(); // Cambia a mayusculas --> "LAS ROSAS SON ROJAS"
+string strLowerCase = str.ToLowerCase(); // Cambia a minusculas --> "las rosas son rojas"
+string concatStr = str + ", Las violetas son azules!"; // Concatena --> "Las rosas son rojas, Las violetas son azules!"

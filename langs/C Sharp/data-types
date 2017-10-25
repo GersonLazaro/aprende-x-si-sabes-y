@@ -1,0 +1,20 @@
+sbyte a = 1; // Enteros entre -128 y 127
+short b = 128; // Enteros entre -32768 y 32767
+int c = 32768; // Enteros entre -2^31 y (2^31)-1
+long d = 2147483648l; // Enteros entre -2^63 y (2^63)-1
+float e = 3.14f; // Número de punto flotante y precision simple
+double g = 3.14; // Número de punto flotante y precision doble
+bool h = true; // Valor booleano (true o false)
+char i = 'a'; // Caracter
+string w = "hola"; // Cadena de texto
+
+// los tipos representando enteros vienen con una contraparte sin signo
+byte ua = 1 // Enteros entre 0 y 255
+ushort ub = 128 // Enteros entre 0 y 65535
+uint uc = 2987654321 // Enteros entre 0 y 4294967295 (2^32)
+ulong ud = 2147483648l // Enteros entre 0 y 2^64
+
+// NOTA: todos estos tipos son alias para tipos de valores en el namespace de System
+// Ejemplos: 
+// - int es alias para System.Int32 
+// - long es alias para System.Int64
