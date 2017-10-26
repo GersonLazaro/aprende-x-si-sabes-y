@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+// Forma basica de leer y mostrar datos
+
+func main() {
+	var a int 
+	var b string 
+
+	fmt.Scanf("%d\n", &a) // Lee un entero y lo asigna a la variable a
+	fmt.Scanf("%s\n", &b) // Lee un string y lo asigna a la variable b 
+
+	//Salidas de datos
+	fmt.Print("Sin salto de linea")
+	fmt.Println("Con salto de linea")
+}
