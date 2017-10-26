@@ -19,6 +19,7 @@
       "languages": [
         "C++",
         "C Sharp",
+        "Go",
         "Java",
         "Javascript",
         "Julia",
@@ -26,8 +27,7 @@
         "PHP",
         "Python",
         "Ruby",
-        "Swift",
-        "Go"
+        "Swift"
       ]
     },
     {
@@ -37,13 +37,13 @@
       "languages": [
         "C++",
         "C Sharp",
+        "Go",
         "Java",
         "Javascript",
         "Kotlin",
         "PHP",
         "Python",
-        "Ruby",
-        "Go"
+        "Ruby"
       ]
     },
     {
@@ -53,13 +53,13 @@
       "languages": [
         "C++",
         "C Sharp",
+        "Go",
         "Java",
         "Javascript",
         "PHP",
         "Python",
         "Julia",
-        "Ruby",
-        "Go"
+        "Ruby"
       ]
     },
     {
@@ -73,8 +73,7 @@
         "Kotlin",
         "PHP",
         "Python",
-        "Ruby",
-        "Go"
+        "Ruby"
       ]
     },
     {
@@ -84,12 +83,12 @@
       "languages": [
         "C++",
         "C Sharp",
+        "Go",
         "Java",
         "Javascript",
         "Kotlin",
         "PHP",
-        "Python",
-        "Go"
+        "Python"
       ]
     },
     {
