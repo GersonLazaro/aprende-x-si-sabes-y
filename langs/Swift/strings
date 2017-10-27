@@ -1,0 +1,55 @@
+// Una cadena es una serie de caracteres, como "Swift", que forma una colección. Las cadenas en Swift son correctas para Unicode e insensibles a la configuración regional
+let greeting = "Welcome!"
+
+//Las interpolaciones de cadenas son literales de cadenas que evalúan cualquier expresión incluida y convierten los resultados en forma de cadena.
+let name = "Rosa"
+let personalizedGreeting = "Welcome, \(name)!"
+// personalizedGreeting == "Welcome, Rosa!"
+
+let price = 2
+let number = 3
+let cookiePrice = "\(number) cookies: $\(price * number)."
+// cookiePrice == "3 cookies: $6."
+
+
+//Combine cadenas utilizando el operador de concatenación ( +).
+let longerGreeting = greeting + " We're glad you're here!"
+// longerGreeting == "Welcome! We're glad you're here!"
+
+//Las cadenas siempre tienen semántica de valores. La modificación de una copia de una cadena no afecta al original.
+var otherGreeting = greeting
+otherGreeting += " Have a nice time!"
+// otherGreeting == "Welcome! Have a nice time!"
+
+print(greeting)
+// Prints "Welcome!"
+
+
+//La comparación de cadenas para igualdad utilizando el operador equal-to ( ==) o un operador relacional (like <o >=) siempre se realiza usando la representación canónica Unicode. Como resultado, las diferentes representaciones de una cadena se comparan como iguales.
+let cafe1 = "Cafe\u{301}"
+let cafe2 = "Café"
+print(cafe1 == cafe2)
+// Prints "true"
+
+//Una cadena es una colección de clústeres de grafemas extendidos , que se aproximan a caracteres legibles por humanos. Muchos caracteres individuales, como "é", "김" y "🇮🇳", pueden estar formados por múltiples puntos de código Unicode. Estos puntos de código se combinan mediante los algoritmos de límites de Unicode en clústeres de grafemas extendidos, representados por el Charactertipo de Swift .
+
+let name = "Marie Curie"
+let firstSpace = name.index(of: " ") ?? name.endIndex
+let firstName = name[..<firstSpace]
+// firstName == "Marie"
+
+//La constante es una instancia del tipo, un tipo que representa subcadenas de una cadena mientras comparte el almacenamiento de la cadena original. 
+print("\(name)'s first name has \(firstName.count) letters.")
+// Prints "Marie Curie's name has 5 letters."
+
+
+//Si necesita acceder a los contenidos de una cadena codificada en diferentes codificaciones Unicode, utilice uno de la cadena de , o propiedades. 
+let cafe = "Cafe\u{301} du 🌍"
+print(cafe)
+// Prints "Café du 🌍"
+
+//La cafecadena es una colección de los nueve caracteres que están visibles cuando se muestra la cadena.
+print(cafe.count)
+// Prints "9"
+print(Array(cafe))
+// Prints "["C", "a", "f", "é", " ", "d", "u", " ", "🌍"]"
