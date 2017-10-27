@@ -1,0 +1,5 @@
+a = [1,2,3,4,5] #crea una nueva lista
+
+a.each do |element| #para cada elemento en la lista
+   puts element 	#imprime cada elemento
+end
