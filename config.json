@@ -68,6 +68,7 @@
       "filename": "input-output",
       "languages": [
         "C++",
+        "Go",
         "Java",
         "Julia",
         "Kotlin",
@@ -88,7 +89,8 @@
         "Javascript",
         "Kotlin",
         "PHP",
-        "Python"
+        "Python",
+        "Go"
       ]
     },
     {
