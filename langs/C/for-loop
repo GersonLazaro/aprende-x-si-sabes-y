@@ -1,0 +1,3 @@
+for (i = 0; i < 5; i++) { //Ejecuta en bucle 5 veces 
+  printf("Hola mundo!\n") // Esta instrucción se realizará 5 veces
+}
