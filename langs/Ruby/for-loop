@@ -1,0 +1,4 @@
+
+for i in(1..10) # ejecuta un bucle 10 veces
+    puts "Hola mundo!" #ejecuta esta sentencia 10 veces
+end
