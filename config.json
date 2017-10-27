@@ -68,6 +68,7 @@
       "filename": "input-output",
       "languages": [
         "C++",
+        "Go",
         "Java",
         "Julia",
         "Kotlin",
