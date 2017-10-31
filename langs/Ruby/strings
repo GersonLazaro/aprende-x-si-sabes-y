@@ -1,0 +1,16 @@
+
+cadena="Las rosas son rojas"
+puts cadena[0] # Nos devolvera L
+puts cadena[6] #Nos devolvera s
+puts cadena[-1] === "s" #Nos devuelve true
+puts cadena.start_with?("l") #Nos devuelve false, case sensitive
+puts cadena === "Las rosas son rojas" #Nos devuelve true
+puts cadena.index("son") #localiza la posicion donde se encuentra "son"
+puts cadena.length # Nos devuelve la longitud: 19
+puts cadena.gsub(/a/, 'e') # Cambia todas las a por e
+puts cadena.downcase  #Transforma el String a minusculas
+puts cadena.upcase #Transforma el String a mayusculas
+puts cadena[4..-1] # Nos devuelve "rosas son rojas"
+puts cadena.lstrip # Si existe espacio al inicio y final de la cadena , nos la devuelve sin el
+puts cadena <=> cadena2 #  positivo si cadena>cadena2 , negativo si cadena<cadena2 y 0 si son iguales
+puts cadena.include? "Las" # Nos devuelve true
