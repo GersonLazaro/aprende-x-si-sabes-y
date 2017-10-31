@@ -146,6 +146,15 @@
       ]
     },
     {
+      "name": "Treemap",
+      "description": "Colección ordenada de pares de Clave - Valor sin Claves duplicadas",
+      "filename": "treemap",
+      "languages": [
+        "C++",
+        "Java"
+      ]
+    },
+    {
       "name": "Métodos/Funciones",
       "description": "Declaración de métodos con parámetros",
       "filename": "methods",
