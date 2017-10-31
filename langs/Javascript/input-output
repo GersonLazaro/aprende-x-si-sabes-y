@@ -1,0 +1,28 @@
+//Usando la API de NodeJS
+//Define la funcion readline
+function readLine(cb){
+    function procesarLinea() {
+        var chunk = process.stdin.read(); //Lee una Buffer o Null
+        if(chunk){ //Si leyo una linea
+            process.stdin.removeListener("readable", procesarLinea);
+            cb(chunk.toString().replace("\n","")); //Lo transforma en un string
+                                         // remueve el caracter de fin de linea
+                                         // y enviamos el resultado
+        }
+    }
+    process.stdin.on('readable', procesarLinea);
+}
+
+readLine(function (str) {
+    var linea = str; //Lee una linea
+
+    readLine(function (str) {
+        var numero = Number(str) //Lee un numero
+
+        //Salida de datos
+        process.stdout.write(numero.toString()) //Solo acepta buffer o string
+        process.stdout.write("Sin salto de linea");
+        process.stdout.write("Con salto de linea\n");
+
+    })
+})
