@@ -1,0 +1,5 @@
+Stack<Integer> s = new Stack<Integer>();
+s.push(15); //Inserta un elemento al tope de la pila 
+s.peek(); //Obtiene el elemento del tope de la pila
+s.pop(); //Obtiene y remueve el elemento del tope de la pila
+s.empty(); //Verifica si la pila esta vacia
