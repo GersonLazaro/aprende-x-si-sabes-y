@@ -1,0 +1,5 @@
+Queue<Integer> q = new LinkedList<Integer>();
+q.add(15); //Insertar
+q.poll(); //Obtener y remover el elemento del frente
+q.peek(); //Obtener el elemento del frente sin removerlo
+q.isEmpty(); //Verificar si la cola esta vacia
