@@ -1,0 +1,7 @@
+map<int, string> t; //Clave, Valor
+t[9] = "Septiembre"; // Insertar un par de clave-valor
+t.count(9); // Verificar si la clave existe
+t.erase(9); // Eliminar el par de Clave-Valor dada la clave
+t.empty(); // Verificar si el mapa tiene elementos
+t.clear(); // Limpiar la estructura
+t.size(); // Obtener el tamaño del mapa
