@@ -71,6 +71,7 @@
         "C++",
         "Go",
         "Java",
+        "Javascript",
         "Julia",
         "Kotlin",
         "PHP",
@@ -117,7 +118,8 @@
         "C Sharp",
         "Java",
         "Javascript",
-        "PHP"
+        "PHP",
+        "Ruby"
       ]
     },
     {
