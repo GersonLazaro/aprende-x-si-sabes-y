@@ -9,6 +9,6 @@ a[0] = 25;
 // Borrar valor en un índice dado
 a.splice(3, 1); // Borra un elemento, iniciando en el indice 3
 // Borrar todo
-a.splice(0, a.length);
+a.length = 0;
 // Obtener tamaño
 a.length;
