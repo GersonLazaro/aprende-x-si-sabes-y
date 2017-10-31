@@ -157,6 +157,15 @@
       ]
     },
     {
+      "name": "Queue",
+      "description": "Una colecciónn de elementos que son insertados y removidos siguiendo el comportamiento FIFO (Primero entrar, primero en salir)",
+      "filename": "queue",
+      "languages": [
+        "C++",
+        "Java"
+      ]
+    },
+    {
       "name": "Métodos/Funciones",
       "description": "Declaración de métodos con parámetros",
       "filename": "methods",
