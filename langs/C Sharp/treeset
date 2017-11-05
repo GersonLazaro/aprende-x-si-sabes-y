@@ -1,0 +1,6 @@
+SortedSet<int> valores = new SortedSet<int> (); //Creamos la estructura
+valores.Add (1); //Agrega elementos
+valores.Contains (1); //Verifica si un elemento existe
+valores.Remove (1); //Elimina un elemento
+valores.Clear (); //Limpia la estructura
+valores.Count; //Obtiene el tamaño
