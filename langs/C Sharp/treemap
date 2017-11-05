@@ -1,6 +1,6 @@
 //Hay dos tipos de estructuras similares a los treemap
 
-SortedDictionary <int,string> dicc = new SortedDictionary<string, string> (); //Clave - Valor
+SortedDictionary <int,string> dicc = new SortedDictionary<int, string> (); //Clave - Valor
 dicc.Add (1, "junay"); //Inserta un par Clave-Valor
 dicc.ContainsKey (1); //Verifica si existe la Clave (Booleano)
 dicc.ContainsValue ("junay"); //Verifica si existe el Valor (Booleano)
