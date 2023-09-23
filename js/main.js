@@ -157,18 +157,15 @@ function changeText (letter) {
 }
 
 /**
- * Revisa si los dos lenguajes son validos. Si lo son, activa el botón
+ * Revisa si los dos lenguajes son válidos.
  */
-function validateButton () {
-  var btn = document.getElementById("learnButton");
-  if(selectX.selectedIndex > 0 && selectY.selectedIndex > 0) btn.disabled = false;
-  else btn.disabled = true;
+function validateLanguages () {
+  if(selectX.selectedIndex > 0 && selectY.selectedIndex > 0) generateComparison();
 }
 
 
 // Inicialización y configuración
 init();
 loadConfig();
-document.getElementById("learnButton").addEventListener("click", generateComparison);
-document.getElementById("selectX").addEventListener("change", function () {changeText('X');validateButton();});
-document.getElementById("selectY").addEventListener("change", function () {changeText('Y');validateButton();});
+document.getElementById("selectX").addEventListener("change", function () {changeText('X');validateLanguages();});
+document.getElementById("selectY").addEventListener("change", function () {changeText('Y');validateLanguages();});
