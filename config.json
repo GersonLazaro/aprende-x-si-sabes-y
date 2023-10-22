@@ -69,6 +69,7 @@
       "filename": "input-output",
       "languages": [
         "C++",
+	"C Sharp",
         "Go",
         "Java",
         "Javascript",
@@ -143,6 +144,7 @@
       "filename": "treeset",
       "languages": [
         "C++",
+	"C Sharp",
         "Java",
         "Ruby"
       ]
@@ -153,6 +155,7 @@
       "filename": "treemap",
       "languages": [
         "C++",
+	"C Sharp",
         "Java"
       ]
     },

@@ -1,0 +1,8 @@
+//Entrada de datos
+Console.Read(); //Lee un caracter o numero (tecla)
+Console.ReadKey(); //Lee una tecla
+Console.ReadLine(); //Lee una linea de texto
+
+//Salida de datos
+Console.Write("Sin salto de lineas");
+Console.WriteLine ("Con salto de lineas");
