@@ -1,0 +1,23 @@
+// imprimiría hasta 9
+
+for i in 0 ..< 10 {
+    print (i)  // incrementaré uno con cada iteración del ciclo for
+}
+
+// imprimiría hasta 10
+for i in 0 ... 10 {
+    print (i)
+}
+
+// iterar a través de una matriz
+let names = ["Bob", "Carl", "Joe", "Dory" ] 
+for name in names {
+    print (name)
+}
+
+// nodos en una escena del kit sprite (no funcionará en Playgrounds)
+for node in self.children {
+    if (node.name == "Ball") {
+        //hacer algo
+    }
+}
