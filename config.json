@@ -157,6 +157,24 @@
       ]
     },
     {
+      "name": "Cola",
+      "description": "Una colecciónn de elementos que son insertados y removidos siguiendo el comportamiento FIFO (Primero entrar, primero en salir)",
+      "filename": "queue",
+      "languages": [
+        "C++",
+        "Java"
+      ]
+    },
+    {
+      "name": "Pila",
+      "description": "Una colección de elementos que son insertados y removidos acorde al comportamiento LIFO (último en entrar primero en salir)",
+      "filename": "stack",
+      "languages": [
+        "C++",
+        "Java"
+      ]
+    },             
+    {
       "name": "Métodos/Funciones",
       "description": "Declaración de métodos con parámetros",
       "filename": "methods",

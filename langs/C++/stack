@@ -1,0 +1,5 @@
+stack<int> s;
+s.push(15); //Inserta en el tope de la pila
+s.top(); //Obtiene el elemento del tope de la pila
+s.pop(); //Remueve el elemento del tope de la pila
+s.empty(); //Verifica si la pila esta vacia

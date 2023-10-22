@@ -1,0 +1,5 @@
+queue<int> q;
+q.push(15); //Insertar
+q.pop(); //Remover elemento del frente de la cola
+q.front(); //Obtener el elemento superior sin removerlo
+q.empty(); //Verificar si la cola esta vacia
