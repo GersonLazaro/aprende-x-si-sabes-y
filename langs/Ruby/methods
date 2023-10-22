@@ -1,0 +1,11 @@
+def sumarDosNumeros1(int primerNumero, int segundoNumero) {
+	return primerNumero + segundoNumero
+end
+
+def sumarDosNumeros2(int primerNumero, int segundoNumero) {
+	primerNumero + segundoNumero #En Ruby el resultado de la ultima expresion, es por default el valor de retorno.
+end
+
+sumarDosNumeros1(1, 2) === sumarDosNumero2(1, 2) #true
+
+sumarDosNumeros1 45, 67 #En Ruby los parentesis son opcionales
